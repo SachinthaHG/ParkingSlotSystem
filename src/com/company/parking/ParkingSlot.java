@@ -66,7 +66,7 @@ public class ParkingSlot {
         if(id.length() != 3)
             validId = false;
         else if(Character.isUpperCase(id.charAt(0)) && Character.isDigit(id.charAt(1)) && Character.isDigit(id.charAt(2)))
-                validId = true;
+             validId = true;
 
         if(validId)
             return id;
